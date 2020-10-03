@@ -4,7 +4,7 @@
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 system('clear');
-echo "Namamu (Yanto Aowkaoak)->>";
+echo "Kanakamamjzkzkananzj?===>";
  switch(trim(fgets(STDIN)))
        {}
 system('clear');
@@ -28,7 +28,6 @@ system('clear');
     $red    = "\e[91m";
     $yellow = "\e[93m";
     $blue   = "\e[36m";
-    $number = "number";
 system('sleep 0.5');
 echo $blue."
 █████████ 
@@ -49,7 +48,7 @@ echo $red."
 █3.Download Full Script By MAris            █
 █████████████████████████████████████████████ 
 █4.Update Script.                           █
-█████████████████████████████████████████████ \n";
+█████████████████████████████████████████████\n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
@@ -78,6 +77,7 @@ switch(trim(fgets(STDIN)))
 echo "Siapa Nama Akun Target?:";
 switch(trim(fgets(STDIN)))
         {}
+system('figlet coming soon');
 exit();
 case 2:
 system('clear');
