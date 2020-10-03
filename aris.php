@@ -27,6 +27,7 @@ switch(trim(fgets(STDIN)))
        {
 case MAris:
 system('sleep 1');
+system('clear');
 echo "Kode Benar!!\n";
 system('sleep 1');
 system('php RecodeMandul.php');
