@@ -4,7 +4,7 @@
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 system('clear');
-echo "Kanakamamjzkzkananzj?===>";
+echo "Namamu Siapa?Yanto?===>";
  switch(trim(fgets(STDIN)))
        {}
 system('clear');
