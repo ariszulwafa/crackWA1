@@ -2,6 +2,7 @@
 
 system('clear');
 echo "
+JIKA TIDAK TAU KODENYA,SILAHKAN DOWNLOAD DULU
 1.Masukan Kode
 2.Download Kode\n";
 echo "
