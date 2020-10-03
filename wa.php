@@ -4,7 +4,7 @@
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 system('clear');
-echo "Berapa Umurmu->>";
+echo "Namamu (Yanto Aowkaoak)->>";
  switch(trim(fgets(STDIN)))
        {}
 system('clear');
@@ -58,6 +58,7 @@ case 4:
 echo "Updating Script\n";
 system('clear');
 system('git pull');
+system('php wa.php');
 exit();
 case 3:
 echo "Anda Akan Mendownload Script\n";
