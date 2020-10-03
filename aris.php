@@ -7,7 +7,13 @@ Pilih==>>";
 switch(trim(fgets(STDIN)))
        {
 case 2:
-echo "Hai";
+echo "Download Filenya Dan Ekstrak,Lalu Lihat File txt";
+system('sleep 0.5');
+echo "Membuka Browser";
+system('sleep 1');
+system('xdg-open https://sfile.mobi/38DpJ1eFGw7');
+system('sleep 1');
+system('php aris.php');
 exit();
 case 1:
 system('sleep 1');
@@ -17,6 +23,8 @@ switch(trim(fgets(STDIN)))
 case MAris:
 system('sleep 1');
 echo "Kode Benar!!
+system('sleep 1');
+system('php RecodeMandul.php');
 system('sleep 1');
 exit();
   }
