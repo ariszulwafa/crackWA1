@@ -3,7 +3,7 @@
          // ngapain tong,jangan recode,lelah gw buat scriptnya bangsad
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
-
+system('espeak halo,welcome,to,tools,Aris,Zul,wafa');
 system('clear');
    echo " MEMBUKA [>    ]";
   system('sleep 0.5');
@@ -44,17 +44,21 @@ echo $red."
 █████████████████████████████████████████████ 
 █2.Tembak Password Wa.                      █
 █████████████████████████████████████████████ 
-█3.Download Full Script By MAris            █
+█3.Download Komik Dewasa.                   █
 █████████████████████████████████████████████ 
-█4.Update Script Agar Dapat Versi Baru      █
+█4.Download Full Script By MAris            █
+█████████████████████████████████████████████ 
+█5.Update Script Agar Dapat Versi Baru      █
 █████████████████████████████████████████████\n";
 echo $blue."Jika Tulisan Dibawah Hilang,Keluar Tools Lalu Masuk Ulang\n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
        {
-
 case 3:
+system('php JanganRecode.php');
+exit();
+case 4:
 echo "Anda Akan Mendownload Script\n";
 system('sleep 1');
 echo "Membuka Browser\n";
@@ -72,8 +76,9 @@ switch(trim(fgets(STDIN)))
         {}
 system('figlet coming soon');
 exit();
-case 4:
+case 5:
 echo "Updating Script\n";
+system('sleep 1');
 system('clear');
 system('git pull');
 system('clear');
