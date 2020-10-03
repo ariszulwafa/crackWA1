@@ -51,7 +51,6 @@ echo $red."
 █5.Update Script Agar Dapat Versi Baru      █
 █████████████████████████████████████████████\n";
 echo $blue."Jika Tulisan Dibawah Hilang,Keluar Tools Lalu Masuk Ulang\n";
-system('espeak jika,eror,chat,saya');
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
