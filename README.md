@@ -1,2 +1,3 @@
 # crackWA1
-Z
+cd crackWA1
+php wa.php
