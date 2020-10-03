@@ -92,7 +92,7 @@ exit();
 case 2:
 system('clear');
 system('neofetch');
-system('espeak masukan,nomor,korban
+system('espeak masukan,nomor,korban');
 echo "Masukan Nomor Korban:";
 switch(trim(fgets(STDIN)))
         {}
