@@ -13,8 +13,8 @@ system('clear');
    echo " MEMBUKA [>>>  ]";
   system('sleep 0.5');
 system('clear');
-   echo " MEMBUKA [>>>> ]";
-system('sleep 0.5');
+   echo " MEMBUKA [>>>> ]";       
+system('sleep 0.5');                                               
 system('clear');
    echo " MEMBUKA [>>>>>]";
   system('sleep 1');
@@ -67,12 +67,12 @@ system('sleep 0.4');
 PILIH NOMOR GAN :";
      switch(trim(fgets(STDIN)))
         {
-            case 1:                                                                                                                         >
+            case 1:                                                                                                                                          echo "LINK NYA NIH GAN \n";
 system('sleep 1');
 system('xdg-open https://bit.ly/3h8Worc');
                 exit();
             case 2:
-echo "LINK NYA NIH GAN\n";
+                echo "LINK NYA NIH GAN\n";
 system('sleep 1');
 system('xdg-open https://bit.ly/3jUYXyB');
                 exit();
@@ -142,7 +142,7 @@ case 18:
                 exit();
             case 19:
                 echo "BELUM TERSEDIA\n";
-exit();
+                exit();
             case 20:
                 echo "BELUM TERSEDIA\n";
                 exit();case 21:
