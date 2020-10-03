@@ -2,6 +2,7 @@
          // ngapain tong,jangan recode
          // NGAPAIN NANO AMJINF
          // Print out main menu..
+system('espeak welcome,new,tools');
   system('sleep 0.5');
  system('clear');
    echo " MEMBUKA [>    ]";
@@ -57,14 +58,12 @@ echo $blue." ===========================================
     |   21) PACARKU SANGE     |
     ===========================
      BACA INI!!!!
-     KETIK 55 UNTUK UPDATE AGAR DAPAT VERSI TERBARU
      KETIK 99 UNTUK KELUAR SCRIPT
-     KETIK 77 ATAU ENTER  UNTUK CHAT AUTHOR
-     JIKA TULISAN DIBAWAH HILANG,PENCET CTRL Z LALU PHP KOMIK.PHP\n";
-
+     KETIK 77 ATAU ENTER  UNTUK CHAT AUTHOR\n";
+     
 system('sleep 0.4');
     echo $green."
-PILIH NOMOR GAN :";
+PILIH NOMOR GAN :\n";
      switch(trim(fgets(STDIN)))
         {
             case 1:                                                                                                                                          echo "LINK NYA NIH GAN \n";
