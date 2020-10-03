@@ -19,3 +19,8 @@ system('sleep 1');
 echo "Kode Benar!!
 system('sleep 1');
 exit();
+  }
+}
+// Close standard in..
+    fclose(STDIN);
+?>
