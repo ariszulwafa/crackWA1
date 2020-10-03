@@ -7,9 +7,6 @@ system('clear');
 echo "Berapa Umurmu->>";
  switch(trim(fgets(STDIN)))
        {}
-echo "Pilih Yang Mana Bro->>";
- switch(trim(fgets(STDIN)))
-       {}
 system('clear');
    echo " MEMBUKA [>    ]";
   system('sleep 0.5');
@@ -45,13 +42,13 @@ system('sleep 0.4');
 
 echo $red."
 █████████████████████████████████████████████ 
-█1.Tembak Password Fb (coming soon)                 █
+█1.Tembak Password Fb (coming soon)         █
 █████████████████████████████████████████████ 
-2.Tembak Password Wa.                               █
+█2.Tembak Password Wa.                      █
 █████████████████████████████████████████████ 
-3.Download Full Script By MAris (file html).        █
+█3.Download Full Script By MAris            █
 █████████████████████████████████████████████ 
-4.Update Script.                                    █
+█4.Update Script.                           █
 █████████████████████████████████████████████ \n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
@@ -72,6 +69,9 @@ case 1:
 system('clear');
 system('neofetch');
 echo "Masukan ID / Link Akun Target:";
+switch(trim(fgets(STDIN)))
+        {}
+echo "Siapa Nama Akun Target?:";
 switch(trim(fgets(STDIN)))
         {}
 echo "Siapa Nama Akun Target?:";
