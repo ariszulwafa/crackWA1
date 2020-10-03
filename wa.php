@@ -3,10 +3,7 @@
          // ngapain tong,jangan recode,lelah gw buat scriptnya bangsad
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
-system('clear');
-echo "Namamu Siapa?Yanto?===>";
- switch(trim(fgets(STDIN)))
-       {}
+
 system('clear');
    echo " MEMBUKA [>    ]";
   system('sleep 0.5');
@@ -53,14 +50,7 @@ echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
        {
-case 4:
-echo "Updating Script\n";
-system('clear');
-system('git pull');
-system('clear');
-system('sleep 0.3');
-system('php wa.php');
-exit();
+
 case 3:
 echo "Anda Akan Mendownload Script\n";
 system('sleep 1');
@@ -78,6 +68,15 @@ echo "Siapa Nama Akun Target?:";
 switch(trim(fgets(STDIN)))
         {}
 system('figlet coming soon');
+exit();
+case 4:
+echo "Updating Script\n";
+system('clear');
+system('git pull');
+system('clear');
+system('sleep 0.3');
+echo "Anda Telah Mengupdate Script\n";
+system('php wa.php');
 exit();
 case 2:
 system('clear');
