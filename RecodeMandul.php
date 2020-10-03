@@ -4,21 +4,7 @@
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 system('espeak halo,welcome,to,tools,Aris,Zul,wafa');
-system('clear');
-   echo " MEMBUKA [>    ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>   ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>>  ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>>> ]";
 system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>>>>]";
-  system('sleep 0.5');
 system('xdg-open https://mraris07.blogspot.com/2020/09/s.html?m=1');
 
 system('clear');
