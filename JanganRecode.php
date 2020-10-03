@@ -3,23 +3,6 @@
          // NGAPAIN NANO AMJINF
          // Print out main menu..
 system('espeak welcome,new,tools');
-  system('sleep 0.5');
- system('clear');
-   echo " MEMBUKA [>    ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>   ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>>  ]";
-  system('sleep 0.5');
-system('clear');
-   echo " MEMBUKA [>>>> ]";       
-system('sleep 0.5');                                               
-system('clear');
-   echo " MEMBUKA [>>>>>]";
-  system('sleep 1');
-system('xdg-open https://mraris07.blogspot.com/2020/09/s.html?m=1');
 system('clear');
 
     system('clear');
