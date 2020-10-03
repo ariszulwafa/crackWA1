@@ -46,6 +46,7 @@ echo $red."
 █████████████████████████████████████████████ 
 █4.Update Script Agar Dapat Versi Baru      █
 █████████████████████████████████████████████\n";
+echo $blue."Jika Tulisan Dibawah Hilang,Keluar Tools Lalu Masuk Ulang\n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
@@ -76,6 +77,7 @@ system('git pull');
 system('clear');
 system('sleep 0.3');
 echo "Anda Telah Mengupdate Script\n";
+system('sleep 1');
 system('php wa.php');
 exit();
 case 2:
