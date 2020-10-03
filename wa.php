@@ -44,13 +44,19 @@ echo $green."█ ▲▲▲▲▲ █ 
 system('sleep 0.4');
 
 echo $red."
-1.Tembak Password Fb
+1.Tembak Password Fb (coming soon)
 2.Tembak Password Wa
-3.Download Full Script By MAris\n";
+3.Download Full Script By MAris (file html)
+4.Update Script\n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
        {
+case 4:
+echo "Updating Script\n";
+system('clear');
+system('gitpull');
+exit();
 case 3:
 echo "Anda Akan Mendownload Script\n";
 echo "Membuka Browser\n";
