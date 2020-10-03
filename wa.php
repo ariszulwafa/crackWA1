@@ -1,6 +1,6 @@
 <?php
-// Recode Sepuas nya°_°
-         // ngapain tong,jangan recode
+
+         // ngapain tong,jangan recode,lelah gw buat scriptnya bangsad
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 system('clear');
@@ -74,9 +74,6 @@ switch(trim(fgets(STDIN)))
 echo "Siapa Nama Akun Target?:";
 switch(trim(fgets(STDIN)))
         {}
-echo "Siapa Nama Akun Target?:";
-switch(trim(fgets(STDIN)))
-        {}
 system('figlet coming soon');
 exit();
 case 2:
@@ -85,7 +82,7 @@ system('neofetch');
 echo "Masukan Nomor Korban:";
 switch(trim(fgets(STDIN)))
         {}
-echo "Apakah Anda Akan Hack? (Y/N):";
+echo "Anda Ingin Melanjutkannya?? (Y/N):";
 switch(trim(fgets(STDIN)))
         {
 case y:
@@ -169,3 +166,4 @@ echo "Berhenti\n";
     // Close standard in..
     fclose(STDIN);
 ?>
+//Jangan diubah nanti eror
