@@ -3,6 +3,7 @@
          // ngapain tong,jangan recode
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
+system('clear');
 echo "Berapa Umurmu->>";
  switch(trim(fgets(STDIN)))
        {}
@@ -43,10 +44,15 @@ echo $green."█ ▲▲▲▲▲ █ 
 system('sleep 0.4');
 
 echo $red."
-1.Tembak Password Fb (coming soon)
-2.Tembak Password Wa
-3.Download Full Script By MAris (file html)
-4.Update Script\n";
+█████████████████████████████████████████████ 
+█1.Tembak Password Fb (coming soon)                 █
+█████████████████████████████████████████████ 
+2.Tembak Password Wa.                               █
+█████████████████████████████████████████████ 
+3.Download Full Script By MAris (file html).        █
+█████████████████████████████████████████████ 
+4.Update Script.                                    █
+█████████████████████████████████████████████ \n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
  switch(trim(fgets(STDIN)))
