@@ -47,7 +47,7 @@ echo $red."
 █████████████████████████████████████████████ 
 █3.Download Full Script By MAris            █
 █████████████████████████████████████████████ 
-█4.Update Script.                           █
+█4.Update Script Agar Dapat Versi Baru      █
 █████████████████████████████████████████████\n";
 echo $yellow."
 Pilih Yang Mana Bro->>";
@@ -57,10 +57,13 @@ case 4:
 echo "Updating Script\n";
 system('clear');
 system('git pull');
+system('clear');
+system('sleep 0.3');
 system('php wa.php');
 exit();
 case 3:
 echo "Anda Akan Mendownload Script\n";
+system('sleep 1');
 echo "Membuka Browser\n";
 system('sleep 1');
 system('xdg-open https://sfile.mobi/aBO53PfC5ql');
