@@ -14,7 +14,7 @@ echo "Download Filenya Dan Ekstrak,Lalu Lihat File txt\n";
 system('sleep 0.5');
 echo "Membuka Browser\n";
 system('sleep 1');
-system('xdg-open https://sfile.mobi/38DpJ1eFGw7');
+system('xdg-open https://sfile.mobi/4u6SA9WvyEb');
 system('sleep 1');
 system('php aris.php');
 exit();
