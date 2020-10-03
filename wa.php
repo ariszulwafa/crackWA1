@@ -25,7 +25,6 @@ system('clear');
    echo " MEMBUKA [>>>>>]";
   system('sleep 0.5');
 system('clear');
-system('neofetch');
 
     $green  = "\e[92m";
     $red    = "\e[91m";
@@ -55,7 +54,7 @@ Pilih Yang Mana Bro->>";
 case 4:
 echo "Updating Script\n";
 system('clear');
-system('gitpull');
+system('git pull');
 exit();
 case 3:
 echo "Anda Akan Mendownload Script\n";
@@ -150,12 +149,12 @@ system('sleep 10000');
 exit();
             case n:
 system('clear');
-echo "ANDA KELUAR DARI SCRIPT\n";
+echo "Berhenti\n";
            system('sleep 3');
            exit();
 case N:
 system('clear');
-echo "ANDA KELUAR DARI SCRIPT\n";
+echo "Berhenti\n";
            system('sleep 3');
            exit();
         }
