@@ -6,7 +6,7 @@ JIKA TIDAK TAU KODENYA,SILAHKAN DOWNLOAD DULU
 1.Masukan Kode
 2.Download Kode\n";
 echo "
-Pilih==>>";
+Pilih==>>\n";
 switch(trim(fgets(STDIN)))
        {
 case 2:
@@ -20,7 +20,7 @@ system('php aris.php');
 exit();
 case 1:
 system('sleep 1');
-echo "Masukkan Kode:";
+echo "Masukkan Kode:\n";
 switch(trim(fgets(STDIN)))
        {
 case MAris:
