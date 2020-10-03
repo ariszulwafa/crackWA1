@@ -28,7 +28,6 @@ system('clear');
     $yellow = "\e[93m";
     $blue   = "\e[36m";
 system('sleep 0.5');
-system('espeak dilarang,recode');
 echo $blue."
 █████████ 
 █▄█████▄█   
@@ -92,11 +91,9 @@ exit();
 case 2:
 system('clear');
 system('neofetch');
-system('espeak masukan,nomor,korban');
 echo "Masukan Nomor Korban:";
 switch(trim(fgets(STDIN)))
         {}
-system('espeak Anda,ingin, melanjutkannya');
 echo "Anda Ingin Melanjutkannya?? (Y/N):";
 switch(trim(fgets(STDIN)))
         {
