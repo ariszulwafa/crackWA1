@@ -72,7 +72,7 @@ system('clear');
 system('sleep 0.3');
 echo "Anda Telah Mengupdate Script\n";
 system('sleep 1');
-system('php wa.php');
+system('php aris.php');
 exit();
 case 2:
 system('clear');
