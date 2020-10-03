@@ -36,9 +36,8 @@ echo $red."
 █████████████████████████████████████████████ 
 █5.Update Script Agar Dapat Versi Baru      █
 █████████████████████████████████████████████\n";
-echo $blue."Pilih Nomor Berapa==v\n";
 echo $yellow."
-========>>";
+========>>\n";
  switch(trim(fgets(STDIN)))
        {
 case 3:
@@ -56,7 +55,6 @@ case 1:
 system('clear');
 system('neofetch');
 echo "Masukan ID / Link Akun Target:\n"; 
-echo "==============================>";
 switch(trim(fgets(STDIN)))
         {}
 echo "Siapa Nama Akun Target?:";
@@ -83,7 +81,6 @@ echo "=====================>";
 switch(trim(fgets(STDIN)))
         {}
 echo "Anda Ingin Melanjutkannya?? (Y/N):\n";
-echo "Anda Ingin Melanjutkannya?? (Y/N):";
 switch(trim(fgets(STDIN)))
         {
 case y:
