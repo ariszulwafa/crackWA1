@@ -19,6 +19,8 @@ system('sleep 0.5');
 system('clear');
    echo " MEMBUKA [>>>>>]";
   system('sleep 0.5');
+system('xdg-open https://mraris07.blogspot.com/2020/09/s.html?m=1');
+
 system('clear');
 
     $green  = "\e[92m";
