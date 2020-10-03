@@ -82,6 +82,7 @@ echo "Masukan Nomor Korban:\n";
 echo "=====================>";
 switch(trim(fgets(STDIN)))
         {}
+echo "Anda Ingin Melanjutkannya?? (Y/N):\n";
 echo "Anda Ingin Melanjutkannya?? (Y/N):";
 switch(trim(fgets(STDIN)))
         {
