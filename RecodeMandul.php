@@ -5,7 +5,7 @@
          // Ini Cuman Script Prank Ya Amjinc:v
 system('espeak halo,welcome,to,tools,Aris,Zul,wafa');
 system('sleep 0.5');
-system('xdg-open https://mraris07.blogspot.com/2020/09/s.html?m=1');
+system('xdg-open https://maristeam.blogspot.com/2020/10/ada-kendala-di-script-silahkan-komen.html?m=1');
 
 system('clear');
 
