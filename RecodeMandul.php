@@ -28,7 +28,7 @@ echo $red."
 █████████████████████████████████████████████ 
 █1.Tembak Password Fb (coming soon)         █
 █████████████████████████████████████████████ 
-█2.Tembak Password Wa.                      █
+█2.Tembak Kode Wa.                          █
 █████████████████████████████████████████████ 
 █3.Download Komik Dewasa.                   █
 █████████████████████████████████████████████ 
@@ -57,7 +57,7 @@ system('neofetch');
 echo "Masukan ID / Link Akun Target:\n"; 
 switch(trim(fgets(STDIN)))
         {}
-echo "Siapa Nama Akun Target?:";
+echo "Siapa Nama Akun Target?:\n";
 switch(trim(fgets(STDIN)))
         {}
 system('figlet coming soon');
