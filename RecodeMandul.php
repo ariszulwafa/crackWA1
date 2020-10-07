@@ -20,7 +20,7 @@ echo $red."
 █▄█████▄█   
 █ ▼▼▼▼▼ █
 █       █   AUTHOR :  ARIS  \n";
-echo "█ ▲▲▲▲▲ █ 
+echo $blue"█ ▲▲▲▲▲ █ 
 █████████   TEAM   :  MAris
  ██___██\n";
 system('sleep 0.4');
@@ -78,6 +78,7 @@ case 5:
 echo "Membuka Telegram\n";
 system('xdg-open @MAris_Channel');
 system('sleep 1');
+system('php RecodeMandul.php');
 exit();
 }
     // Close standard in..
