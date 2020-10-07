@@ -16,10 +16,9 @@ system('sleep 0.1');
 | | _____  _ __ ___ (_) | __
 | |/ / _ \| '_ ` _ \| | |/ /
 |   < (_) | | | | | | |   <
-|_|\_\___/|_| |_| |_|_|_|\_versi 1.3\n";
+|_|\_\___/|_| |_| |_|_|_|\_|\n";
 system('sleep 0.5');
-echo $blue." ===========================================
-                     |   AUTHOR : MR.ARIS  |\n";
+echo $blue."MAris\n";
     system('sleep  0.3');
     echo $yellow. "    ====================================================
     |      [    BLOK 1   ]    |      [   BLOK 2  ]     |
@@ -42,7 +41,7 @@ echo $blue." ===========================================
     ===========================
      BACA INI!!!!
      KETIK 99 UNTUK KELUAR SCRIPT
-     KETIK 77 ATAU ENTER  UNTUK CHAT AUTHOR\n";
+     KETIK 77 ATAU UNTUK CHAT AUTHOR\n";
      
 system('sleep 0.4');
     echo $green."
@@ -135,23 +134,15 @@ case 18:
 system('sleep 0.5');
 echo "MEMBUKA WHATSAPP";
              system('sleep 1');
-             system('xdg-open https://wa.me/628884196160');
+             system('xdg-open https://wa.me/628232456646');
 exit();
-case 55:
-echo "UPDATE SCRIPT";
-system('sleep 2');
-system('clear');
-system('git pull');
-system('sleep 1');
-system('clear');
-echo "ANDA MENDAPATKAN UPDATE BARU";
-system('sleep 1');
-system('php komik.php');
-exit();
+
 
      case 99:
            echo "ANDA KELUAR DARI SCRIPT\n";
-           system('sleep 3');
+           system('sleep 0.2');
+           system('php aris.php');
+           system('sleep 0.2');
            exit();
         }
     // Close standard in..
