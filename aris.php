@@ -1,5 +1,5 @@
 <?php
-
+//Jangan Dirubah Nanti Eror
 system('clear');
 echo "
 JIKA TIDAK TAU KODENYA,SILAHKAN DOWNLOAD DULU
