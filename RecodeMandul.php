@@ -4,7 +4,7 @@
          // NGAPAIN NANO AMJINF
          // Ini Cuman Script Prank Ya Amjinc:v
 
-system('espeak halo,welcome,to,tools,Aris,Zul,wafa');
+system('espeak halo,welcome,to,tools,M,Aris');
 system('sleep 0.5');
 system('xdg-open https://maristeam.blogspot.com/2020/10/ada-kendala-di-script-silahkan-komen.html?m=1');
 
@@ -20,7 +20,7 @@ echo $red."
 █▄█████▄█   
 █ ▼▼▼▼▼ █
 █       █   AUTHOR :  ARIS  \n";
-echo $blue"█ ▲▲▲▲▲ █ 
+echo $blue."█ ▲▲▲▲▲ █ 
 █████████   TEAM   :  MAris
  ██___██\n";
 system('sleep 0.4');
@@ -75,8 +75,8 @@ system('sleep 1');
 system('php aris.php');
 exit();
 case 5:
-echo "Membuka Telegram\n";
-system('xdg-open @MAris_Channel');
+echo "Pastikan Anda Punya Telegram\n";
+system('xdg-open https://t.me/MAris_Channel');
 system('sleep 1');
 system('php RecodeMandul.php');
 exit();
