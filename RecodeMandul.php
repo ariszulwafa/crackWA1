@@ -34,6 +34,8 @@ echo $red."
 █3.Download Full Script By MAris            █
 █████████████████████████████████████████████ 
 █4.Update Script Agar Dapat Versi Baru      █
+█████████████████████████████████████████████
+█5.Gabung Channel MAris (Telegram).         █
 █████████████████████████████████████████████\n";
 echo $yellow."
 ========>>\n";
