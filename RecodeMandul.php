@@ -72,9 +72,6 @@ echo "Anda Telah Mengupdate Script\n";
 system('sleep 1');
 system('php aris.php');
 exit();
-
-
-        }
 }
     // Close standard in..
     fclose(STDIN);
