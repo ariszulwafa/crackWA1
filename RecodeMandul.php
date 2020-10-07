@@ -74,6 +74,11 @@ echo "Anda Telah Mengupdate Script\n";
 system('sleep 1');
 system('php aris.php');
 exit();
+case 5:
+echo "Membuka Telegram\n";
+system('xdg-open @MAris_Channel');
+system('sleep 1');
+exit();
 }
     // Close standard in..
     fclose(STDIN);
